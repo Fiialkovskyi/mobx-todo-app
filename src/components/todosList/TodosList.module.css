@@ -1,0 +1,28 @@
+.list {
+  margin-top: 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #faf4f4;
+  border-radius: 5px;
+}
+
+.list__item label {
+  flex-grow: 1;
+  padding: 0 20px;
+  user-select: none;
+}
+
+.list__item button {
+  color: rgb(161, 29, 29);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
